@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Divide {
 	public static void main(String[] args) throws Exception {
-		FileReader file = new FileReader("C:/Users/hp/workspace/DividingIntegersFromFile/Input.txt");
+		FileReader file = new FileReader("https://github.com/smehreen/DividingNumbersFromFile-JavaCode-/blob/master/DividingNumbersFromFile/Input.txt");
 		BufferedReader br = new BufferedReader(file);
 		StreamTokenizer st = new StreamTokenizer(br);
     	double div=1,a = 1;
